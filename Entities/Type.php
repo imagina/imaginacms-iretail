@@ -16,13 +16,13 @@ class Type extends CrudStaticModel
     $this->records = [
       self::ENTRY => [
         'id' => self::ENTRY,
-        'title' => trans('iretail::common.type.entry'),
+        'title' => trans('iretail::types.entry'),
         "color" => 'green',
         "icon" => 'fa-solid fa-arrow-up'
       ],
       self::OUTPUT => [
         'id' => self::OUTPUT,
-        'title' => trans('iretail::common.type.output'),
+        'title' => trans('iretail::types.output'),
         "color" => 'red',
         "icon" => 'fa-solid fa-arrow-down'
       ]
