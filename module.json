@@ -1,0 +1,14 @@
+{
+  "name": "Iretail",
+  "alias": "iretail",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "priority": 1,
+  "providers": [
+    "Modules\\Iretail\\Providers\\IretailServiceProvider",
+    "Modules\\Iretail\\Providers\\EventServiceProvider",
+    "Modules\\Iretail\\Providers\\RouteServiceProvider"
+  ],
+  "files": []
+}
